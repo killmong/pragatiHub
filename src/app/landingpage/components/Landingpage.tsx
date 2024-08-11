@@ -1,13 +1,13 @@
 import * as React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Container from "@/common/componentns/Container";
+import Container from "@/common/components/Container";
 import { GlobeDemo } from "./GlobeDemo";
-import TextGradient from "@/common/componentns/TextGradient";
+import TextGradient from "@/common/components/TextGradient";
 
 const Landingpage = () => {
   return (
-    <div className="flex flex-col bg-white  max-md:py-12 max-md:pr-5">
+    <div className="flex flex-col bg-black  max-md:py-12 max-md:pr-5">
       <Container>
         <div className="w-full max-w-[1328px] max-md:max-w-full">
           <div className="flex justify-between max-md:flex-col">
@@ -15,15 +15,15 @@ const Landingpage = () => {
               <div className="flex flex-col w-full  max-md:max-w-full">
                 <div className="mx-6 my-24 text-2xl">
                   <TextGradient
-                    className="text-4xl font-bold animate-pulse  text-[#604CC3] dark:text-white"
+                    className="text-4xl font-bold animate-pulse  text-[#F7F7F2] dark:text-white"
                     text="Welcome to PragatiHub - Your Gateway to Knowledge and Community!"
                   />
                   <div className="flex pt-4 flex-row">
-                    <button className="font-[system-ui] text-base px-4 py-2 rounded-xl border border-[#604CC3] text-[#604CC3] mx-2 hover:bg-blue-100  ">
+                    <button className="font-[system-ui] text-base px-4 py-2 rounded-xl border border-[#F05D23] text-[#F7F7F2] mx-2 hover:bg-blue-100  ">
                       Login
                     </button>
 
-                    <button className="font-[system-ui] text-base px-4 py-2 rounded-xl border bg-[#604CC3] text-white mx-2 hover:bg-violet-600  ">
+                    <button className="font-[system-ui] text-base px-4 py-2 rounded-xl border bg-[#F05D23] text-white mx-2 hover:bg-violet-600  ">
                       Signup
                     </button>
                   </div>

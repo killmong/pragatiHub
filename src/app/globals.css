@@ -7,12 +7,7 @@
 }
 
 .background {
-  background: rgb(15, 23, 42);
-  background: linear-gradient(
-    90deg,
-    rgba(15, 23, 42, 1) 55%,
-    rgba(35, 42, 71, 1) 96%
-  );
+  background: rgb(1, 1, 1);
 }
 .animate-gradient {
   background-size: 300%;
