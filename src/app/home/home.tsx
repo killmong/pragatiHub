@@ -1,9 +1,24 @@
-import React from 'react'
+import * as React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Container from "@/common/components/Container";
+import FeedPage from "./feed/components/feedpage";
 
-function home() {
+const Home = () => {
   return (
-    <div>home</div>
-  )
-}
+    <div className="flex flex-col bg-black text-white min-h-screen">
+      {/* Header */}
 
-export default home
+      {/* Main Content */}
+      <main className="flex-grow">
+        <Container>
+          <div className="py-8">
+            <FeedPage />
+          </div>
+        </Container>
+      </main>
+ </div>
+  );
+};
+
+export default Home;

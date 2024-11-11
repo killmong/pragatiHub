@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       {isLandingPage && (
-        <div className="bg-slate-900">
+        <div className="bg-black">
           <Container>
             <div className="mx-auto max-w-screen-xl px-4 md:items-center md:justify-center">
               <span className="text-sm text-gray-500 text-center dark:text-gray-400">

@@ -18,17 +18,7 @@ const Landingpage = () => {
                     className="text-4xl font-bold animate-pulse  text-[#F7F7F2] dark:text-white"
                     text="Welcome to PragatiHub - Your Gateway to Knowledge and Community!"
                   />
-                  <div className="flex pt-4 flex-row">
-                    <button className="font-[system-ui] text-base px-4 py-2 rounded-xl border border-[#F05D23] text-[#F7F7F2] mx-2 hover:bg-blue-100  ">
-                      Login
-                    </button>
-
-                    <button className="font-[system-ui] text-base px-4 py-2 rounded-xl border bg-[#F05D23] text-white mx-2 hover:bg-violet-600  ">
-                      Signup
-                    </button>
-                  </div>
-                </div>
-
+                 </div>
                 <div className="mt-10 text-3xl font-semibold leading-10 text-black text-opacity-50 max-md:mt-10 max-md:max-w-full"></div>
               </div>
             </div>

@@ -23,7 +23,7 @@ function Login() {
                 className="flex border border-gray-400 px-2 py-1 m-auto"
               >
                 <FcGoogle size={20} />
-                <span className="px-2 text-white">Signup with Google</span>{" "}
+                <span className="px-2 text-sm text-white">Signup with Google</span>{" "}
               </Link>
             </div>{" "}
             <div className="relative my-6">
@@ -60,8 +60,8 @@ function Login() {
                 placeholder="enter password"
               />
               <Link
-                href="/home/feed"
-                className="bg-violet-600 text-center px-4 rounded-xl py-2 text-white hover:animate-in w-full "
+                href="/home"
+                className="bg-[#FF7F3E] text-center px-4 rounded-xl py-2 text-white hover:animate-in w-full "
               >
                 Create account
               </Link>

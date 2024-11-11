@@ -1,25 +1,31 @@
 "use client";
-import React from "react";
-import Image from "next/image";
-import Container from "@/common/components/Container";
-import { useRouter,usePathname } from "next/navigation";
+import * as React from "react";
+import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
+import Container from "@/common/components/Container";
+import Image from "next/image"; // Import Image for the icon
+import { IoMdHome } from "react-icons/io"; // Import Home icon
+import { FaSearch, FaPaperPlane } from "react-icons/fa"; // Import Search and PaperPlane icons
+import { MdGroup } from "react-icons/md"; // Import Group icon
+import { IoMdNotifications } from "react-icons/io"; // Import Notifications icon
+
 const Header = () => {
   const router = useRouter();
   const pathname = usePathname();
+  const isLandingPage = pathname === "/";
+  const isHomePage = pathname === "/home";
+  const iconSize = 24; // Define a consistent icon size
 
-  const isLandingPage = pathname === "/" || pathname === "/home";
   return (
-    <div className="flex items-center justify-between font-semibold text-sm leading-6 text-slate-200 bg-black">
+    <header className="bg-gray-800 p-4">
       <Container>
-        <div className="flex justify-between px-4">
-          <div className="flex flex-row items-center space-x-2">
+        <nav className="flex justify-between items-center">
+          <div className="flex items-center">
             <Image
-              src="/images/Logo.png"
-              width={30}
-              height={30}
-              alt="app logo"
-              className="bg-current rounded-full"
+              src="/images/applogo.png"
+              alt="Icon"
+              width={32}
+              height={32}
             />
             <p
               className="mx-3 mt-1 text-base text-[#FB773C] cursor-pointer"
@@ -45,9 +51,9 @@ const Header = () => {
               </Link>
             </div>
           )}
-        </div>
+        </nav>
       </Container>
-    </div>
+    </header>
   );
 };
 

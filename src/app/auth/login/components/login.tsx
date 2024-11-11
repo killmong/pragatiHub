@@ -22,7 +22,7 @@ function Login() {
                 className="flex border border-gray-400 px-2 py-1 m-auto"
               >
                 <FcGoogle size={20} />
-                <span className="px-2 text-white">Signin with Google</span>{" "}
+                <span className="px-2 text-sm text-white">Signin with Google</span>{" "}
               </Link>
             </div>
             <div className="relative my-6">

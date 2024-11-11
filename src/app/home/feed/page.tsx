@@ -1,3 +1,3 @@
-import feed from "./components/Feed";
+import feed from "./components/feedpage";
 
 export default feed
