@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Header from "../header/page";
 import Footer from "../footer/page";
@@ -11,7 +12,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="flex justify-between flex-col">
       <Header />
-      {children}
+      <div className="flex">
+        {/* Main Content */}
+        <main className="flex-1">{children}</main>
+      </div>
       <Footer />
     </div>
   );

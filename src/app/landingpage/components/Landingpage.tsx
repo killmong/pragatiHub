@@ -33,7 +33,7 @@ const Landingpage = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <GlobeDemo />
+          {/*}  <GlobeDemo />*/}
           </div>
         </div>
       </Container>
